@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&family=Poppins&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background: #222831;
+  background-image: url(Sprinkle.svg);
+}
+
+
+header {
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding: 20px 100px;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+}
+
+
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  margin: 0px 50px;
+}
+
+
+.logo {
+  color: #f2f2f2;
+  font-size: 21px;
+}
+
+
+.navigation {
+  background: transparent;
+  padding-left: 130px;
+}
+
+
+.navigation a {
+  background: transparent;
+  position: relative;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  margin-left: 35px;
+  width: 100%;
+  color: #f2f2f2;
+  font-size: 15px;
+  transition: 0.5s;
+  font-weight: 600;
+  opacity: 85%;
+}
+
+
+header .navigation a:hover {
+  color: #f96d00;
+}
+
+
+.container2{
+  position: relative;
+  display: flex;
+}
+
+
+.container2 .form-group{
+  display: flex;
+  margin-right: 20px;
+  max-width: 250px;
+  width: 100%;
+  padding: 0px 15px;
+  border-radius: 60px;
+  border: 1px solid #384250;
+  align-items: center;
+  
+}
+
+
+.container2 .form-group input,.form-group button{
+  background: transparent ;
+  border: 0px;
+  outline: none;
+  color: #f2f2f2;
+  font-size: 14px;
+}
+
+
+.container2 .form-group input{
+  width: 160px;
+}
+
+
+.container2.form-group button{
+  cursor: pointer;
+}
+
+
+.container2 .btn {
+  border: 0px;
+  background: #f96d00;
+  padding: 7px 25px;
+  border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+  box-shadow: 0px 0px 7px 0.5px #f96d00;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+
+.container2 .btn:hover {
+  transform: scale(1.1);
+}
+
+
+.sentence {
+  position: absolute;
+  color: #384250;
+  margin-top: 125px;
+  margin-left: 150px;
+  display: block;
+  width: fit-content;
+  background: #1d232b;
+  padding: 5px 10px;
+  font-weight: 10;
+}
+
+
+span.word {
+  background: #1d232b;
+  color: #f96d00;
+}
+
+
+.main {
+  position: relative;
+  background: transparent;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
+}
+
+
+.paragraph .title {
+  position: absolute;
+  background: transparent;
+  font-size: 2.5em;
+  width: 30%;
+  color: #f2f2f2;
+  margin-top: 170px;
+  margin-left: 150px;
+}
+
+
+.paragraph p {
+  position: absolute;
+  width: 30%;
+  color: #797878;
+  background: transparent;
+  margin-top: 290px;
+  margin-left: 150px;
+}
+
+
+.main .buttons {
+  position: absolute;
+  margin-top: 410px;
+  margin-left: 150px;
+}
+
+
+.main button {
+  padding: 8.5px 25px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #f2f2f2;
+  transition: 0.5s;
+}
+
+
+.main .buttons .talent {
+  background: #f96d00;
+  border: 0px;
+}
+
+
+.main .buttons .plyvid {
+  border: 2px solid #2c343f;
+  background: transparent;
+  border-color: #2c343f;
+  margin-left: 6px;
+}
+
+
+.main .buttons .plyvid i {
+  color: #1db954;
+  margin-right: 3.3px;
+}
+
+
+.main .plyvid:hover,
+.talent:hover {
+  transform: scale(1.1);
+}
+
+
+.main .icons {
+  position: absolute;
+  background: transparent;
+  margin-top: 480px;
+  margin-left: 150px;
+  font-size: 23px;
+}
+
+
+.main .icons a {
+  color: #384250;
+  margin: 2px;
+}
+
+
+.main .icons .fa-brands,
+.fa-solid {
+  transition: 0.3s;
+}
+
+
+.main .icons .fa-facebook:hover {
+  color: #3b5998;
+}
+
+
+.main .icons .fa-instagram:hover {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.main .icons .fa-twitter:hover {
+  color: #00acee;
+}
+
+
+.main .icons .fa-envelope:hover {
+  color: #c71610;
+}
+
+
+.main .icons .fa-github:hover {
+  color: #171515;
+}
+.main .icons .fa-linkedin:hover {
+  color: #0072b1;
+}
+
+
+.main .icons .fa-steam:hover {
+  color: #171a21;
+}
+
+
+.main .icons .fa-spotify:hover {
+  color: #1db954;
+}
+
+
+.main .icons .fa-twitch:hover {
+  color: #6441a5;
+}
+
+
+.main .icons .fa-youtube:hover {
+  color: #c4302b;
+}
+
+
+.main img {
+  position: absolute;
+  width: 600px;
+  right: 30px;
+  top: 1px;
+  background: transparent;
+}
+
+
+.main .shp1 {
+  position: absolute;
+  display: flex;
+  animation-name: floating;
+  animation-duration: 3.7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  width: 95px;
+  margin-right: 100px;
+  margin-top: 470px;
+  z-index: 1;
+}
+
+
+.main .shp2 {
+  position: absolute;
+  display: flex;
+  animation-name: floating;
+  animation-duration: 2.9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  width: 160px;
+  margin-right: 500px;
+  margin-top: 00px;
+}
+
+
+.main .shp3 {
+  position: absolute;
+  display: flex;
+  animation-name: floating;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  width: 200px;
+  margin-right: 0px;
+  margin-top: 50px;
+}
+
+
+.main .shp4 {
+  position: absolute;
+  display: flex;
+  animation-name: floating;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  width: 150px;
+  margin-right: 550px;
+  margin-top: 380px;
+}
+
+
+@keyframes floating {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(-0px);
+  }
+}
